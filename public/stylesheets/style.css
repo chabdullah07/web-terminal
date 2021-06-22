@@ -11,6 +11,7 @@ a {
 .navbar {
   background-color: black !important;
   padding: 20px;
+  color:white;
 }
 .table thead {
   background-color: black !important;
