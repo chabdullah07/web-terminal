@@ -5,16 +5,15 @@ body {
 }
 
 a {
-  color: #000000;
+  color: #00b7ff;
 }
 
 .navbar {
-  background-color: black !important;
+  background-color: darkcyan !important;
   padding: 20px;
-  color:white;
 }
 .table thead {
-  background-color: black !important;
+  background-color: darkcyan !important;
 }
 .table thead tr th {
   color: white !important;
@@ -31,7 +30,7 @@ h1 {
 
 .btn {
   background-color: white !important;
-  color: black !important;
-  border: 2px solid black !important;
+  color: darkcyan !important;
+  border: 2px solid darkcyan !important;
   margin-right: 30px;
 }
