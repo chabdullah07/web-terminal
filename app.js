@@ -42,7 +42,7 @@ app.use(function (err, req, res, next) {
 });
 
 mongoose
-  .connect("mongodb://localhost/productscrud", {
+  .connect("mongodb+srv://admin:fa18bse112@webterminal.ughtq.mongodb.net/Products", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
