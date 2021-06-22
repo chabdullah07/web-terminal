@@ -1,36 +1,35 @@
 body {
-  margin: 0% !important;
-  font: 14px "Playfair" !important;
-  background-color: honeydew !important;
-}
-
-a {
-  color: #00b7ff;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 .navbar {
-  background-color: darkcyan !important;
   padding: 20px;
+  width: 100%;
+  background-color: black !important;
 }
-.table thead {
-  background-color: darkcyan !important;
-}
-.table thead tr th {
-  color: white !important;
-}
-h1 {
-  padding-top: 70px;
-  padding-left: 520px;
-  padding-bottom: 70px;
+
+.nav-item > a {
+  color: white;
+  margin-right: 30px;
+  letter-spacing: 1px;
+  font-size: 13px;
 }
 
 .heading {
-  padding-left: 430px;
+  margin: 80px;
+}
+
+.main {
+  margin: 80px;
 }
 
 .btn {
-  background-color: white !important;
-  color: darkcyan !important;
-  border: 2px solid darkcyan !important;
-  margin-right: 30px;
+  padding: 0.3em 1.3em;
+  background-color: #000 !important;
+  color: white !important;
+  margin-right: 10px;
+}
+
+.checked {
+  color: red;
 }
