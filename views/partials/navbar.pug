@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <a class="navbar-brand" href="/" style= "color:white;">Web Terminal</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -6,24 +7,21 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a  href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/" style= "color:white;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a  href="/products">Products</a>
-      </li>
-      <li class="nav-item">
-        <a  href="/cart">My Shopping Cart</a>
+        <a class="nav-link" href="/cart" style= "color:white;">My Shopping Cart</a>
       </li>
       if !user
         <li class="nav-item">
-          <a  href="/register">Register</a>
+          <a class="nav-link" href="/register" style= "color:white;">Register</a>
         </li>
         <li class="nav-item">
-          <a  href="/login">Login</a>
+          <a class="nav-link" href="/login" style= "color:white;">Login</a>
         </li>
       if user
         <li class="nav-item">
-          <a  href="/logout">Logout</a>
+          <a class="nav-link" href="/logout" style= "color:white;">Logout</a>
         </li>
     </ul>
     
