@@ -1,12 +1,13 @@
 extends ../layout
 
 block content
-  h1 Login
-  form(action="/login",method="post")        
+  h1 Login Account
+  .container
+    form(action="/login",method="post")        
         .form-group
-            label(for="email") Email
-            input#email(type="text", class="form-control", name="email" value="fa18-bse-112@cuilahore.edu.pk")
+            label(for="email") Email Address
+            input#email(type="text", class="form-control", name="email"  value="admin@gmail.com" required)
         .form-group
             label(for="password") Password
-            input#price(type="password", class="form-control", name="password", value="bhoolgaya")
-        input(type="submit", class="btn btn-info" value="Login")
+            input#price(type="password", class="form-control", name="password",  value="admin" required)
+        input(type="submit", class="btn " value="Login")
