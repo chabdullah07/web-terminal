@@ -5,21 +5,20 @@ block content
         .col-sm-8
             h1=title
         .col-sm-4
-            a(href="/products/add", class="btn btn-success float-right") Add New Product
+            a(href="/products/add", class="btn newProduct") Add Product
     table.table.table-striped
         thead
             tr
                 th Name
                 th Price
-                th Description
                 th Rating
+                th Description
                 th Actions
         tbody
             each product in products
                 tr
                     td=product.name
                     td=product.price
-                    td=product.discription
                     td
                         if product.rating > 0
                             span(class="fa fa-star checked")
@@ -42,6 +41,7 @@ block content
                         else 
                             span(class="fa fa-star")
                         td
-                            a(href="/products/delete/"+product._id, class="btn btn-danger") Delete
-                            a(href="/products/edit/"+product._id, class="btn btn-warning") Edit
-                            a(href="/products/cart/"+product._id, class="btn btn-info") Add To Cart
+                    td=product.discription
+                            a(href="/products/delete/"+product._id, class="btn") Delete
+                            a(href="/products/edit/"+product._id, class="btn ") Edit
+                            a(href="/products/cart/"+product._id, class="btn ") Add to Cart
